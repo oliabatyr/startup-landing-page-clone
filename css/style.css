@@ -92,11 +92,54 @@ button {
   border-style: none;
   border-radius: 4px;
   padding: 1rem 1.5rem;
-  margin: 0 auto;;
+  margin: 10px auto;;
   display: block;
   width: 9.688rem;
   background-color: #f15a29;
   border-color: #f15a29;
   color: white;
   font-size: 1.125rem;
+}
+.cases {
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 5rem;
+  width: 57.2em;
+  margin: 0 auto;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+.cases h2 {
+  font-size: 2.75rem;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
+}
+.cases .content {
+  margin-top: 7.875rem;
+  color: #1d1e21;
+  text-align: center;
+}
+.cases .devices {
+   /* styles to assist with debugging */
+   box-sizing: border-box;
+   list-style: none;
+   margin: 0 auto;
+   width: 81%;
+   padding-left: 0;
+}
+.cases .devices li {
+  display: inline-block;
+  width: 33.3333333%;
+}
+.cases .devices li img {
+  display: block;
+  margin: 0 auto;
 }
