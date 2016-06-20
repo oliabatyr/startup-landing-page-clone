@@ -143,3 +143,45 @@ h2 {
   display: block;
   margin: 0 auto;
 }
+.cases .devices h3 {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+}
+div {
+  margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+li {
+  display: list-item;
+  -webkit-match-parent;
+  margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+    float: left;
+  }
