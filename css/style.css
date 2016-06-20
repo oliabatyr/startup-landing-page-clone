@@ -163,7 +163,7 @@ h3 {
     vertical-align: baseline;
     text-align: center;
 }
-div {
+div, span {
   margin: 0;
 padding: 0;
 border: 0;
@@ -184,4 +184,80 @@ vertical-align: baseline;
 .cases .devices > li {
     width: 33.3333333%;
     float: left;
+  }
+.social {
+  background-color: #fff;
+  overflow: auto;
+  padding-bottom: 9.375rem;
+  text-align: center;
+}
+footer {
+  display: block;
+  margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+box-sizing: border-box;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+hr {
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+h5 {
+    display: block;
+    -webkit-margin-before: 1.67em;
+    -webkit-margin-after: 1.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    display: block;
+-webkit-margin-before: -1em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: -30px;
+-webkit-margin-end: 11px;
+-webkit-padding-start: 32px;
+  }
+  .social .icons > li:hover {
+    cursor: pointer;
+  }
+  .social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+    color: #55acee;
+  }
+  .social .copy {
+      font-size: 0.9rem;
+      font-weight: 300;
+      color: #838994;
+    }
+
+  span, .social {
+    margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+box-sizing: border-box;
   }
